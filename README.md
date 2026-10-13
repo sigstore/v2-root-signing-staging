@@ -17,7 +17,11 @@ More detail:
 
 ### Repository status
 
-The TUF repository is still being setup but will be published to https://tuf.v2.sigstage.dev/.
+The TUF repository is operational and published to https://tuf.v2.sigstage.dev/index.html.
+
+The delivered content is currently the [root-signing-staging](https://github.com/sigstore/root-signing-staging)
+trusted root & signing config (making `tuf.v2.sigstage.dev` just another entry point for current
+Sigstore staging instance): this will change as rest of v2 infrastructure becomes online.
 
 ### Operation
 
