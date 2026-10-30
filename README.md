@@ -8,8 +8,8 @@ This project maintains
 a **staging** version of the **v2** root-signing TUF repository using
 [tuf-on-ci](https://github.com/theupdateframework/tuf-on-ci): this is a development
 and testing resource and should never be used as an actual source of truth by
-Sigstore clients. The TUF repository in this project is ML-DSA signed and will in
-future contain the staging trust root for a PQC-capable Sigstore instance.
+Sigstore clients. The TUF repository in this project is ML-DSA signed and contains the staging
+trust root and signing config for a PQC-capable Sigstore instance.
 
 More detail:
 * [root-signing](https://github.com/sigstore/root-signing) playbooks and documentation
@@ -19,9 +19,8 @@ More detail:
 
 The TUF repository is operational and published to https://tuf.v2.sigstage.dev/index.html.
 
-The delivered content is currently the [root-signing-staging](https://github.com/sigstore/root-signing-staging)
-trusted root & signing config (making `tuf.v2.sigstage.dev` just another entry point for current
-Sigstore staging instance): this will change as rest of v2 infrastructure becomes online.
+The delivered content is the staging trusted root & signing config for the
+PQC-ready Sigstore instance, including the ML-DSA signed Rekor transparency log.
 
 ### Operation
 
