@@ -16,7 +16,6 @@ env:
 
 jobs:
   sigstore-python:
-    continue-on-error: true # until confirmed ML-DSA support for TUF
     permissions:
       id-token: 'write' # For signing with the GitHub workflow identity
     runs-on: ubuntu-latest
