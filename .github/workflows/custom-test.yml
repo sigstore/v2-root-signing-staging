@@ -16,6 +16,7 @@ env:
 
 jobs:
   sigstore-python:
+    continue-on-error: true # until the new PQC signing workflow is supported
     permissions:
       id-token: 'write' # For signing with the GitHub workflow identity
     runs-on: ubuntu-latest

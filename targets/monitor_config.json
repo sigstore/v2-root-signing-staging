@@ -1,0 +1,9 @@
+{
+  "rekorLogs": [
+    {
+      "readUrl": "https://pqc27-a1.us-east4.rekor.sigstage.dev",
+      "logOrigin": "pqc27-a1.us-east4.rekor.sigstage.dev",
+      "majorApiVersion": 2
+    }
+  ]
+}
